@@ -1,0 +1,37 @@
+{
+  "name": "btcapi",
+  "version": "1.0.0",
+  "description": "Virtual Coin Trader Api Caller",
+  "main": "main.js",
+  "scripts": {
+    "test": "apitest",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WhiteToblack/BTC.Api.git"
+  },
+  "keywords": [
+    "btc",
+    "trader",
+    "BTCTurk"
+  ],
+  "author": "WhiteToBlack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WhiteToblack/BTC.Api/issues"
+  },
+  "homepage": "https://github.com/WhiteToblack/BTC.Api#readme",
+  "dependencies": {
+    "BTCTrader": "1.1.1",
+    "bootstrap": "^4.4.1",
+    "d3": "^5.16.0",
+    "d3-color-legend": "^1.2.5",
+    "d3-svg-legend": "^2.25.6",
+    "electron": "^8.2.5",
+    "https": "^1.0.0",
+    "jquery": "^3.5.0",
+    "moment": "^2.25.1",
+    "scrubber": "0.0.0"
+  }
+}
